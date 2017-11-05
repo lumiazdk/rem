@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<title></title>
+		<script type="text/javascript">
+			//获取像素比
+			//			console.log(window.devicePixelRatio);
+			var pixelRatio = 1 / window.devicePixelRatio;
+			//			console.log(pixelRatio);
+			//通过js动态设置视口(viewport)
+			document.write('<meta name="viewport" content="width=device-width,initial-scale=' + pixelRatio + ',minimum-scale=' + pixelRatio + ',maximum-scale=' + pixelRatio + '" />');
+
+			// 条件：尺寸越大，则字体大小越大。尺寸越小，则字体大小越小。
+
+			// 获取html节点
+			var html = document.getElementsByTagName('html')[0];
+			// 获取屏幕宽度
+			var pageWidth = html.getBoundingClientRect().width;
+			// 屏幕宽度 / 固定数值 = 基准值
+			html.style.fontSize = pageWidth / 10 + "px";
+		</script>
+		<style type="text/css">
+			body {
+				padding: 0;
+				margin: 0;
+			}
+			
+			#box>div {
+				height: 4.3rem;
+				width: 2.73rem;
+				float: left;
+				border-radius: 22px;
+				box-shadow: 3.8px 3.214px 19.68px 4.32px rgba(51, 51, 51, 0.067);
+				margin-top: 0.3rem;
+				margin-left: 0.3rem;
+				margin-right: 0.3rem;
+			}
+			
+			img {
+				display: block;
+				margin: auto;
+				margin-top: 0.5rem;
+				width: 2rem;
+				height: 2rem;
+				border-radius: 50%;
+			}
+			
+			p {
+				margin: 0.5rem;
+				font-size: 0.18rem;
+				text-align: center;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div id="box">
+			<div>
+				<img src="img/u=888308025,2345096382&fm=111&gp=0.jpg" />
+				<p>我玩儿去玩儿恶趣味人为亲人为亲人俄为亲人企鹅万人</p>
+			</div>
+			<div>
+				<img src="img/u=888308025,2345096382&fm=111&gp=0.jpg" />
+				<p>我玩儿去玩儿恶趣味人为亲人为亲人俄为亲人企鹅万人</p>
+			</div>
+			<div>
+				<img src="img/u=888308025,2345096382&fm=111&gp=0.jpg" />
+				<p>我玩儿去玩儿恶趣味人为亲人为亲人俄为亲人企鹅万人</p>
+			</div>
+			<div>
+				<img src="img/u=888308025,2345096382&fm=111&gp=0.jpg" />
+				<p>我玩儿去玩儿恶趣味人为亲人为亲人俄为亲人企鹅万人</p>
+			</div>
+			<div>
+				<img src="img/u=888308025,2345096382&fm=111&gp=0.jpg" />
+				<p>我玩儿去玩儿恶趣味人为亲人为亲人俄为亲人企鹅万人</p>
+			</div>
+			<div>
+				<img src="img/u=888308025,2345096382&fm=111&gp=0.jpg" />
+				<p>我玩儿去玩儿恶趣味人为亲人为亲人俄为亲人企鹅万人</p>
+			</div>
+			<div>
+				<img src="img/u=888308025,2345096382&fm=111&gp=0.jpg" />
+				<p>我玩儿去玩儿恶趣味人为亲人为亲人俄为亲人企鹅万人</p>
+			</div>
+			<div>
+				<img src="img/u=888308025,2345096382&fm=111&gp=0.jpg" />
+				<p>我玩儿去玩儿恶趣味人为亲人为亲人俄为亲人企鹅万人</p>
+			</div>
+			<div>
+				<img src="img/u=888308025,2345096382&fm=111&gp=0.jpg" />
+				<p>我玩儿去玩儿恶趣味人为亲人为亲人俄为亲人企鹅万人</p>
+			</div>
+		</div>
+	</body>
+</html>
